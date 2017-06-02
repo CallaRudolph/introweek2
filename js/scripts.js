@@ -23,5 +23,9 @@ $(document).ready(function() {
     if (apps === 4 && end === 2 && job === 5) {
       $("#ruby").show();
     }
+
+    if (apps === 4 && end === 2 && job === 6) {
+      $("#design").show();
+    }
   });
 });
