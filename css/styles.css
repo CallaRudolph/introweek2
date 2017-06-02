@@ -19,3 +19,11 @@
 #net {
   display: none;
 }
+
+.well {
+  border: 1px solid purple;
+  background-image: url(coffee.jpg);
+  color: white;
+  padding-bottom: .75px;
+  text-align: center;
+}
