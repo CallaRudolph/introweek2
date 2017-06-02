@@ -19,18 +19,9 @@ $(document).ready(function() {
       $("#css").empty();
       $("#java").show();
     }
-    // // var ruby;
-    // //   if (apps === 4 && end === 2 && job === 5) {
-    // //     ruby = ("TEST");
-    // // }
-    // var java;
-    // if (apps === 3 && end === 1) {
-    //   java = ("Java/Android");
-    // }
 
-
-
-
-
+    if (apps === 4 && end === 2 && job === 5) {
+      $("#ruby").show();
+    }
   });
 });
