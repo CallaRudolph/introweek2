@@ -55,6 +55,20 @@ body {
   border: 2px solid black;
 }
 
+#ruby img {
+  display: block;
+  margin: auto;
+  width: 30%;
+  border: 2px solid black;
+}
+
+#net img {
+  display: block;
+  margin: auto;
+  width: 30%;
+  border: 2px solid black;
+}
+
 .well {
   border: 1px solid black;
   background-image: url(coffee.jpg);
