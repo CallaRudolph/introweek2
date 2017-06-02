@@ -13,24 +13,27 @@
         <h1>So you want to be a programmer...</h1>
         <h3>The next step is deciding what programming language to learn. Let us help guide you on your journey!</h3>
       </div>
-        <p><em>Now that you've read up on our options, let's get to know more about you to determine what language would be best to study. Answer the questions below and we'll tell you whether Ruby/Rails, C#/.NET, Java/Android, or CSS/Design would be the right fit for you!</em></p><br>
+      <p><em>Now that you've read up on our options, let's get to know more about you to determine what language would be best to study. Answer the questions below and we'll tell you whether Ruby/Rails, C#/.NET, Java/Android, or CSS/Design would be the right fit for you!</em></p><br>
+      <div class="questions">
         <h5>Do you want to handle what the user sees or what the server needs?</h5>
-        <select class="form-control" id="end">
-          <option>Front End (what the user sees)</option>
-          <option>Back End (what the server needs)</option>
-        </select>
-        <h5>Would you prefer to build on apps or websites?</h5>
-        <select class="form-control" id="apps">
-          <option>I love apps! Gimme them apps.</option>
-          <option>I prefer the good ole fashioned computer.</option>
-        </select>
-        <h5>Do you envision yourself working for a cool start up or a big box company after you graduate?</h5>
-        <select class="form-control" id="job">
-          <option>I wanna be at a start up... I hear they offer kegs.</option>
-          <option>I'd like to work at a large company and sit in a cube-icle.</option>
-        </select>
+        <form id="formOne">
+          <select class="form-control" id="end">
+            <option>Front End (what the user sees)</option>
+            <option>Back End (what the server needs)</option>
+          </select>
+          <h5>Would you prefer to build on apps or websites?</h5>
+          <select class="form-control" id="apps">
+            <option>I love apps! Gimme them apps.</option>
+            <option>I prefer the good ole fashioned computer.</option>
+          </select>
+          <h5>Do you envision yourself working for a cool start up or a big box company after you graduate?</h5>
+          <select class="form-control" id="job">
+            <option>I wanna be at a start up... I hear they offer kegs.</option>
+            <option>I'd like to work at a large company and sit in a cube-icle.</option>
+          </select>
+        </form>
         <br>
-        <form id="form">
+        <form id="formTwo">
           <div class="form-group">
             <label for="name">Please enter your name.</label>
             <input id="name" class="form-control" type="text">
@@ -39,7 +42,8 @@
             <label for="location">Are you based in Portland or Seattle?</label>
             <input id="location" class="form-control" type="text">
           </div>
-        </form>
+        </div>
+      </form>
     </div>
   </body>
 </html>
