@@ -7,17 +7,17 @@ $(document).ready(function() {
 
     var nameInput = $("input#name").val();
     var localeInput = $("#location").val();
-    
+
     $(".name").text(nameInput);
     $(".location").text(localeInput);
 
     if (end === 2 && job === 6) {
       $("#css").show();
     }
-    // var css;
-    // if (end === 2 && job === 6) {
-    //   css = ("CSS");
-    // }
+    if (apps === 3 && end === 1) {
+      $("#java").removeClass();
+      $("#java").show();
+    }
     // // var ruby;
     // //   if (apps === 4 && end === 2 && job === 5) {
     // //     ruby = ("TEST");
