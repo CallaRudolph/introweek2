@@ -14,8 +14,9 @@ $(document).ready(function() {
     if (end === 2 && job === 6) {
       $("#css").show();
     }
+
     if (apps === 3 && end === 1) {
-      $("#java").removeClass();
+      $("#css").empty();
       $("#java").show();
     }
     // // var ruby;
