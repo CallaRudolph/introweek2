@@ -13,7 +13,7 @@
         <h1>So you want to be a programmer...</h1>
         <h3>The next step is deciding what programming language to learn. Let us help guide you on your journey!</h3>
       </div>
-      <p><em>Now that you've read up on our options, let's get to know more about you to determine what language would be best to study. Answer the questions below and we'll tell you whether Ruby/Rails, C#/.NET, Java/Android, or CSS/Design would be the right fit for you!</em></p><br>
+      <p span class="opening"><em>Now that you've read up on our options, let's get to know more about you to determine what language would be best to study. Answer the questions below and we'll tell you whether Ruby/Rails, C#/.NET, Java/Android, or CSS/Design would be the right fit for you!</em></p span><br>
       <div class="questions">
         <h5>Do you want to handle what the user sees or what the server needs?</h5>
         <form id="formOne">
@@ -44,7 +44,7 @@
             <option>It's the latest offering at Starbucks, similar to their Unicorn Explosion.</option>
           </select>
         </form>
-        <br>
+        <br><br>
         <form id="formTwo">
           <div class="form-group">
             <label for="name">Please enter your name:</label>
@@ -56,26 +56,27 @@
             <option>Seattle</option>
           </select>
           <br><br>
-          <button type="submit" class="btn btn-info">Show me what I should study!</button>
+          <button type="submit" class="btn btn-default"><em>Show me what I should study!</em></button>
         </form>
       </div>
       <br>
-      <div id="css">
+      <div class="answer" id="css">
         <h4><em>We think you should study...</em></h4>
-        <p>After reviewing your selections, <span class="name"></span>, we think it would be best if you studied CSS/Design. We hope to see you at our <span class="location"></span> location soon! Feel free to contact us with any questions.</p>
+        <p>After reviewing your selections, <span class="name"></span>, we think it would be best if you studied CSS/Design. Here's some <a href="https://www.codecademy.com/learn/web">more information</a> if you feel so inclined. We hope to see you at our <span class="location"></span> location soon! Feel free to contact us with any questions.</p>
       </div>
-      <div id="java">
+      <div class="answer" id="java">
         <h4><em>We think you should study...</em></h4>
         <p>After reviewing your selections, <span class="name"></span>, we think it would be best if you studied Java/Android. We hope to see you at our <span class="location"></span> location soon! Feel free to contact us with any questions.</p>
       </div>
-      <div id="ruby">
+      <div class="answer" id="ruby">
         <h4><em>We think you should study...</em></h4>
         <p>After reviewing your selections, <span class="name"></span>, we think it would be best if you studied Ruby/Rails. We hope to see you at our <span class="location"></span> location soon! Feel free to contact us with any questions.</p>
       </div>
-      <div id="net">
+      <div class="answer" id="net">
         <h4><em>We think you should study...</em></h4>
         <p>After reviewing your selections, <span class="name"></span>, we think it would be best if you studied C#/.NET. We hope to see you at our <span class="location"></span> location soon! Feel free to contact us with any questions.</p>
       </div>
+      <br>
       <div class="well">
         <p>We appreciate your interest in <a href="#">Techy Wecky School</a>! We've produced some of the finest tech specimens from our courses. You're next!</p>
       </div>

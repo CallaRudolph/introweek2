@@ -1,7 +1,21 @@
+body {
+  background-image: url(background.jpg);
+  color: white;
+}
 .jumbotron {
-  background-color: orange;
   padding-top: .25px;
   padding-bottom: 2px;
+  border: .5px solid black;
+  background-image: url(coffee.jpg);
+  text-shadow: 1px 1px black;
+}
+
+.opening {
+  text-shadow: 1px 1px black;
+}
+
+.questions {
+  text-shadow: 1px 1px black;
 }
 
 #css {
@@ -20,15 +34,26 @@
   display: none;
 }
 
-.well {
-  border: 1px solid purple;
-  background-image: url(coffee.jpg);
-  color: darkgreen;
-  padding-bottom: .75px;
-  text-align: center;
+#location {
+  color: black;
 }
 
-body {
-  background-image: url(background.jpg);
+.btn {
   color: white;
+  border: .25px solid grey;
+  background-image: url(background.jpeg);
+}
+
+.answer {
+  text-shadow: 1px 1px black;
+}
+
+.well {
+  border: 1px solid black;
+  background-image: url(coffee.jpg);
+  color: grey;
+  text-shadow: 1px 1px lightgrey;
+  padding-bottom: .5px;
+  padding-top: 10px;
+  text-align: center;
 }
