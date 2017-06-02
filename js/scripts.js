@@ -15,17 +15,16 @@ $(document).ready(function() {
       $("#css").show();
     }
 
-    if (apps === 3 && end === 1) {
-      $("#css").empty();
+    if (end === 1 && apps === 3) {
       $("#java").show();
     }
 
-    if (apps === 4 && end === 2 && job === 5) {
+    if (end === 2 && apps === 4 && job === 5) {
       $("#ruby").show();
     }
 
-    if (apps === 4 && end === 2 && job === 6) {
-      $("#design").show();
+    if (end === 2 &&apps === 4 && job === 6) {
+      $("#net").show();
     }
   });
 });
