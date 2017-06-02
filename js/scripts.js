@@ -12,11 +12,16 @@ $(document).ready(function() {
     if (apps === 3 && end === 1) {
       java = ("test");
     }
+    var ruby;
+    if (apps === 4 && end === 2 && job === 5) {
+      ruby = ("TEST");
+    }
 
 
     $(".name").text(nameInput);
     $(".location").text(localeInput);
     $("#course").empty().text(java);
+    $("#course").empty().text(ruby);
     $("#track").show();
 
 
