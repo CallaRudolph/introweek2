@@ -23,7 +23,12 @@
 .well {
   border: 1px solid purple;
   background-image: url(coffee.jpg);
-  color: white;
+  color: darkgreen;
   padding-bottom: .75px;
   text-align: center;
+}
+
+body {
+  background-image: url(background.jpg);
+  color: white;
 }
