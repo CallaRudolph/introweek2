@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $("#formTwo").submit(function(event) {
     var nameInput = $("input#name").val();
-    var locationInput = $("input#location").val();
+    var locale = $("#location").val();
 
-    $(".name").append(nameInput);
-    $(".location").append(locationInput);
+    $(".name").text(nameInput);
+    $(".location").text(locale);
     $("#track").show();
 
   event.preventDefault();
