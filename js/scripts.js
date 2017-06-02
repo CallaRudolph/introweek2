@@ -1,4 +1,5 @@
 $(document).ready(function() {
-  var end = $("#end").val();
-  var apps = $("apps").val();
+  var development = $("#end").val();
+  var device = $("apps").val();
+  var work = $("job").val();
 });
