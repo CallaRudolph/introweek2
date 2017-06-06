@@ -20,6 +20,8 @@ $(document).ready(function() {
       $("#ruby").show();
     } else if (end === 2 && apps === 4 && job === 6) {
     $("#net").show();
+    } else {
+    $("#blank").show();
     }
   });
 });
