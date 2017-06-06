@@ -16,24 +16,21 @@ $(document).ready(function() {
       $("#java").hide();
       $("#ruby").hide();
       $("#net").hide();
-    }
-    if (end === 1 && apps === 3) {
+    } else if (end === 1 && apps === 3) {
       $("#java").show();
       $("#css").hide();
       $("#ruby").hide();
       $("#net").hide();
-    }
-    if (end === 2 && apps === 4 && job === 5) {
+    } else if (end === 2 && apps === 4 && job === 5) {
       $("#ruby").show();
       $("#java").hide();
       $("#css").hide();
       $("#net").hide();
-    }
-    if (end === 2 && apps === 4 && job === 6) {
-      $("#net").show();
-      $("#java").hide();
-      $("#ruby").hide();
-      $("#css").hide();
+    } else if (end === 2 && apps === 4 && job === 6) {
+    $("#net").show();
+    $("#java").hide();
+    $("#ruby").hide();
+    $("#css").hide();
     }
   });
 });
