@@ -10,27 +10,16 @@ $(document).ready(function() {
 
     $(".name").text(nameInput);
     $(".location").text(localeInput);
+    $(".answer").hide();
 
     if (end === 2 && apps === 3 && job === 6) {
       $("#css").show();
-      $("#java").hide();
-      $("#ruby").hide();
-      $("#net").hide();
     } else if (end === 1 && apps === 3) {
       $("#java").show();
-      $("#css").hide();
-      $("#ruby").hide();
-      $("#net").hide();
     } else if (end === 2 && apps === 4 && job === 5) {
       $("#ruby").show();
-      $("#java").hide();
-      $("#css").hide();
-      $("#net").hide();
     } else if (end === 2 && apps === 4 && job === 6) {
     $("#net").show();
-    $("#java").hide();
-    $("#ruby").hide();
-    $("#css").hide();
     }
   });
 });
